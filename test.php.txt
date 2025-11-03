@@ -1,0 +1,18 @@
+<?php
+echo "<h1>TEST PHP BERJALAN</h1>";
+echo "<p>Jika ini muncul, PHP bekerja!</p>";
+echo "<p>Server waktu: " . date('Y-m-d H:i:s') . "</p>";
+
+// Test koneksi database sederhana
+try {
+    $host = "localhost";
+    $dbname = "topup_game"; 
+    $username = "root";
+    $password = "";
+    
+    $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    echo "<p style='color: green;'>✅ Database CONNECTED</p>";
+} catch(PDOException $e) {
+    echo "<p style='color: red;'>❌ Database ERROR: " . $e->getMessage() . "</p>";
+}
+?>
