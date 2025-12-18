@@ -39,21 +39,21 @@ CREATE TABLE `games` (
 --
 
 INSERT INTO `games` (`id`, `nama_game`, `developer`, `gambar`) VALUES
-(1, 'Mobile Legends', 'Moonton', 'mobile-legends.jpg'),
-(2, 'Free Fire', 'Garena', 'free-fire.jpg'),
-(3, 'PUBG Mobile', 'Tencent Games', 'pubg-mobile.jpg'),
-(4, 'Genshin Impact', 'miHoYo', 'genshin-impact.jpg'),
-(5, 'Valorant', 'Riot Games', 'valorant.jpg'),
-(6, 'Mobile Legends', 'Moonton', 'mobile-legends.jpg'),
-(7, 'Free Fire', 'Garena', 'free-fire.jpg'),
-(8, 'PUBG Mobile', 'Tencent Games', 'pubg-mobile.jpg'),
-(9, 'Genshin Impact', 'miHoYo', 'genshin-impact.jpg'),
-(10, 'Valorant', 'Riot Games', 'valorant.jpg'),
-(11, 'Mobile Legends', 'Moonton', 'mobile-legends.jpg'),
-(12, 'Free Fire', 'Garena', 'free-fire.jpg'),
-(13, 'PUBG Mobile', 'Tencent Games', 'pubg-mobile.jpg'),
-(14, 'Genshin Impact', 'miHoYo', 'genshin-impact.jpg'),
-(15, 'Valorant', 'Riot Games', 'valorant.jpg');
+(1, 'Mobile Legends', 'Moonton', 'mobile-legends.png'),
+(2, 'Free Fire', 'Garena', 'free-fire.png'),
+(3, 'PUBG Mobile', 'Tencent Games', 'pubg-mobile.png'),
+(4, 'Genshin Impact', 'miHoYo', 'genshin-impact.png'),
+(5, 'Valorant', 'Riot Games', 'valorant.png'),
+(6, 'Mobile Legends', 'Moonton', 'mobile-legends.png'),
+(7, 'Free Fire', 'Garena', 'free-fire.png'),
+(8, 'PUBG Mobile', 'Tencent Games', 'pubg-mobile.png'),
+(9, 'Genshin Impact', 'miHoYo', 'genshin-impact.png'),
+(10, 'Valorant', 'Riot Games', 'valorant.png'),
+(11, 'Mobile Legends', 'Moonton', 'mobile-legends.png'),
+(12, 'Free Fire', 'Garena', 'free-fire.png'),
+(13, 'PUBG Mobile', 'Tencent Games', 'pubg-mobile.png'),
+(14, 'Genshin Impact', 'miHoYo', 'genshin-impact.png'),
+(15, 'Valorant', 'Riot Games', 'valorant.png');
 
 -- --------------------------------------------------------
 
